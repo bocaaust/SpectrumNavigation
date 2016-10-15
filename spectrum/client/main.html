@@ -3,7 +3,7 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <h1>Spertrum Navigatio</h1>
 
   {{> hello}}
   {{> info}}
@@ -13,6 +13,12 @@
   <button>Click Me</button>
   <p>You've pressed the button {{counter}} times.</p>
 </template>
+
+<template name="map">  
+  <div class="map-container">
+    {{> googleMap name="map" options=mapOptions}}
+  </div>
+</template>  
 
 <template name="info">
   <h2>Learn Meteor!</h2>
