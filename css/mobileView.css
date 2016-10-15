@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (min-width: 0px) and (max-width: 414px) {
+  .show-mobile { display: inline; }  /* show it on small screens */
+  .show-desktop { display: none; }   /* hide it elsewhere */
+  .mobile-offset {margin-left:0%; }
+  .fill-mobile-11 {width: 100%;}
+}
+
+@media screen and (min-width: 415px) {
+  .show-mobile { display: none; }   /* hide it elsewhere */
+  .show-desktop { display: inline; }  /* show it on large screens */
+  .mobile-offset {margin-left:inherit; }
+  .fill-mobile-11 {width: 91.66666667%;}
+}
+
