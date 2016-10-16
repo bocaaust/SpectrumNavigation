@@ -39,7 +39,7 @@ function initialize() {
 
 							var topConcept = response.data.outputs[result].data.concepts[0];
 	
-							$("#waypoint" + result).html(topConcept.name + " (" + Math.round(topConcept.value * 100) + "%)")
+							$("#waypoint" + result).html(topConcept.name + " (" + "<a target='_blank' href='" + response.data.outputs[result].input.data.image.url + "'>" + Math.round(topConcept.value * 100) + "%</a>)")
 						}
 					}
 				},
