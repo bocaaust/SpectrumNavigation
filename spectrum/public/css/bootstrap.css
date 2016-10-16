@@ -6774,7 +6774,7 @@ button.close {
 
 img,
 .overlay {
-  transition: .3s all;
+  transition: 1.2s all;
 }
 
 .bg {
@@ -6787,6 +6787,8 @@ img,
 		overflow: scroll;
   background: url(http://i.imgsafe.org/289a5db5d6.png) no-repeat center center;
         background-size:cover;
+		-webkit-transition: background-image 0.2s ease-in-out;
+transition: background-image 0.2s ease-in-out;
 }
 .bg img {
 	
@@ -6825,6 +6827,8 @@ img,
 .bg:hover {
   background: url(http://i.imgsafe.org/28976bb18f.png) no-repeat center center;
         background-size:cover;
+		-webkit-transition: background-image 0.2s ease-in-out;
+transition: background-image 0.2s ease-in-out;
 }
 
 bg:focus {
@@ -6912,7 +6916,7 @@ margin-bottom: 12px;
 	color: #FCFCFC;
     background-color: black;
     border: 1px solid black;
-    opacity: .65;
+    opacity: .8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
 		
 }

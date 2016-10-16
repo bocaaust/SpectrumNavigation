@@ -11,6 +11,7 @@
 @import url("css/animate.css");
 @import url("css/mobileView.css");
 @import url("css/bubble.css");
+@import url("css/messages.css");
 </style>
 	 
   </head>
@@ -31,40 +32,51 @@
         "
         height: 100vh; margin:0px;
     "> 
+    <div class="shadow col-sm-8 col-sm-offset-2" style="margin-top:12px;">
       <div class="row">
+      
       <div class="col-sm-6 col-sm-offset-3 bounceInUp de animated">
-    <h2 style="color:white;" class="shadow">Find Your Destination</h2>
+    <h2 style="color:white;">Find Your Destination</h2>
     </div>
     </div>
     
-      <div class="col-sm-2 col-sm-offset-5 animated bounceInUp dd" style="margin-top:80px;">
-    <h4 class="shadow" style="color:white;">Start Here</h4>
+      <div class="col-sm-8 col-sm-offset-2 animated bounceInUp dd">
+      <p style="font-size: 24px; color:white;">We are a GPS tool aimed at improving the lives of the autistic &amp; disabled community. We are bringing the humanity back to navigation with easy to follow directions that describe locations of interest along the way. </p> <hr>
+   		
     </div>
-    <div class="overlay">
-    <div class="bubble animated bounceInUp dd container-fluid" style="background:grey; margin-top:60px;">
+     
+      <span></span>
+      
+   
+    <div class="animated bounceInUp dd container-fluid" style="margin-top:60px;  ">
     <div class="row">
     <div class="col-sm-8 col-sm-offset-2">
-    <form style="margin:20px;">
-    <div class="form-group shadow" style=" border-radius: 25px;">
-        <label for="inputStart">Start Location</label>
-        <input type="textarea" class="form-control" id="inputStart" placeholder="Enter Start Location">
+    <form class="well" style="padding: 12px;" id="form">
+    <div class="form-group">
+        <label for="inputStart" style="color:black;">Start Location</label>
+        <input type="textarea" class="form-control" style="color:black;" id="inputStart" placeholder="Enter Start Location">
     </div>
-    <div class="form-group shadow" style=" border-radius: 25px;">
-        <label for="inputEnd">End Location</label>
-        <input type="textarea" class="form-control" id="inputEnd" placeholder="Enter End Location">
+    <div class="form-group">
+        <label for="inputEnd" style="color:black;">End Location</label>
+        <input type="textarea" class="form-control" id="inputEnd" style="color:black;" placeholder="Enter End Location">
     </div>
     
-    
+    <div class="overlay">
     <button type="submit" class="btn btn-default">Submit</button>
+    </div>
 </form>
 </div>
    </div>
    </div>
         </div>
         </div>
+        
+     
+       
       </div>
       </div>
-      </div> 
+      </div>
+      
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-1.11.3.min.js"></script>
 
