@@ -66,7 +66,7 @@
             </div>
             </div>
         	<h3 style="color:black;">Turn Left When:</h3>
-            <h4 style="color:black;">You See a Sunoco Gas Station</h4>
+            <h4 style="color:black;">You See a <span id="waypoint0"></span></h4>
             <div class="row">
             <div class="col-xs-6 col-xs-offset-3">
             <img src="https://s-media-cache-ak0.pinimg.com/originals/78/a3/fa/78a3fa6645f0cd395b7b694e970fc88a.png" width="100%" class="img-responsive"> 
@@ -84,7 +84,7 @@
             </div>
             </div>
         	<h3 style="color:black;">Turn Right When:</h3>
-            <h4 style="color:black;"> You See a Wells Fargo Bank</h4>
+            <h4 style="color:black;"> You See a <span id="waypoint1"></span></h4>
             <div class="row">
             <div class="col-xs-6 col-xs-offset-3">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wells_Fargo_Bank.svg/2000px-Wells_Fargo_Bank.svg.png" width="100%" class="img-responsive"> 
@@ -128,5 +128,10 @@
 
 	<!-- Include all compiled plugins (below), or include individual files as needed --> 
 	<script src="js/bootstrap.js"></script>
+	
+	<script type="text/javascript" src="js/map.js"></script>
+	
+	<script type="text/javascript" src="https://sdk.clarifai.com/js/clarifai-2.0.9.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs3VUpe0kqnJcv3ZnjG-eG-sA0ZOR2OE0&callback=initialize"></script>
   </body>
 </html>
